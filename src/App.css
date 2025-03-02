@@ -1,0 +1,42 @@
+/* Stopwatch.css */
+
+/* 1) Digital 폰트 불러오기 예시 (Orbitron) */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
+.stopwatch-container {
+  width: 150px;
+  background-color: #f4f6fc; /* 파스텔 톤 (연한 블루/그레이) */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Orbitron", sans-serif; /* 디지털 느낌 폰트 */
+}
+
+.stopwatch-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.stopwatch-time {
+  font-size: 2.2rem;
+  color: #333;
+}
+
+.stopwatch-ampm {
+  font-size: 0.8rem;
+  margin-top: 4px;
+  color: #555;
+}
+
+.stopwatch-lower {
+  margin-top: 4px;
+}
+
+.stopwatch-lower-text {
+  font-size: 1rem;
+  color: #666;
+}
