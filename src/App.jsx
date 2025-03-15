@@ -1,13 +1,12 @@
 import "./App.css";
+import HomePage from "./pages/Homepage/Homepage";
 import { Analytics } from "@vercel/analytics/react";
-import StopWatchSection from "./components/stopwatch-section/stopwatch-section";
 
 function App() {
   return (
     <>
       <div className="app-container">
-        <h1>Simple Stopwatch</h1>
-        <StopWatchSection />
+        <HomePage />
       </div>
       <Analytics />
     </>
